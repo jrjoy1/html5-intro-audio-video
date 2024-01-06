@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            background-color: orchid;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+        .tabfoot {
+            text-align: center;
+        }
+
+        section ul {
+            background-color: cadetblue;
+            width: 130px;
+        }
+    </style>
+    <link rel="stylesheet" href="Styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="index.html">Index</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>HTML TABLE</h1>
+        <table>
+            <caption>Employee Slary Data</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                    <th>Gender</th>
+                    <th>Blood Group</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                    <td>Male</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Apple</td>
+                    <td>$1200</td>
+                    <td>Male</td>
+                    <td>B+</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Google</td>
+                    <td>$1100</td>
+                    <td>Male</td>
+                    <td>O+</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark Zuckeberg</td>
+                    <td>Facebook</td>
+                    <td>$1300</td>
+                    <td>Male</td>
+                    <td>A-</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="tabfoot" colspan="6">Total Employee : 4</td>
+                </tr>
+            </tfoot>
+        </table>
+        <section>
+            <h3>HTML Table Creating Codes List</h3>
+            <ul>
+                <li>Table : table</li>
+                <li>Table Head : th</li>
+                <li>Table Row : tr</li>
+                <li>Table Data : td</li>
+                <li>Table Footer : tfoot</li>
+            </ul>
+            <p>These are the full form and the short form of table creating codes.</p>
+        </section>
+    </main>
+</body>
+
+</html>
